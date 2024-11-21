@@ -1,0 +1,8 @@
+general:
+  kafka-topic: test-topic
+
+spring:
+  kafka:
+    bootstrap-servers: "localhost:9092"
+    consumer:
+      group-id: "myGroup"
