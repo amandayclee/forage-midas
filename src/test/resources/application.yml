@@ -1,0 +1,9 @@
+general:
+  kafka-topic: test-topic
+
+spring:
+  kafka:
+    bootstrap-servers: "localhost:9092"
+    consumer:
+      group-id: "midas-group"
+      auto-offset-reset: earliest
